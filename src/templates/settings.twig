@@ -1,0 +1,77 @@
+
+{% import "_includes/forms" as forms %}
+
+<p>{{ "Add Social Media linking of your Social Urls if You Leave any Field Blank it won't appear on frontend"}}</p>
+
+
+{{ forms.autosuggestField({
+    label: "Facebook",
+    id: 'Facebookshare',
+    name: 'Facebookshare',
+    value: settings.Facebookshare,
+    placeholder: 'Enter Your Facebook Page Url ',
+    type: 'text',
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Twitter",
+    id: 'Twittershare',
+    name: 'Twittershare',
+    value: settings.Twittershare,
+    placeholder: 'Enter Your Twitter Page Url here',
+    type: 'text',
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Linkedin",
+    id: 'Linkedinshare',
+    name: 'Linkedinshare',
+    value: settings.Linkedinshare,
+    placeholder: 'Enter Your Linkedin Page Url here',
+    type: 'text',
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Youtube",
+    id: 'Youtubeshare',
+    name: 'Youtubeshare',
+    value: settings.Youtubeshare,
+    placeholder: 'Enter Your Youtube Channel Url here',
+    type: 'text',
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Instagram",
+    id: 'Instagramshare',
+    name: 'Instagramshare',
+    value: settings.Instagramshare,
+    placeholder: 'Enter Your Instagram Page Url ',
+    type: 'text',
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Whatsapp",
+    id: 'Whatsappshare',
+    name: 'Whatsappshare',
+    value: settings.Whatsappshare,
+    placeholder: 'Enter Your Whatsapp Number Here',
+    
+}) }}
+
+{{ forms.autosuggestField({
+    label: "Telegram",
+    id: 'Telegramshare',
+    name: 'Telegramshare',
+    value: settings.Telegramshare,
+    placeholder: 'Enter Your Telegram Page Url here',
+    
+}) }}
+
+
+
+
+
+
+
+
+
