@@ -14,4 +14,3 @@ This plugin requires Craft CMS 3.0.0, or later.
 
 Log into your control panel and click on 'Plugin Store'. Search for 'Social Urls'.
 
-#### Composer
