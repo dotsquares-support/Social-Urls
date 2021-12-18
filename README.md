@@ -27,10 +27,3 @@ composer require ds/craft-socialurls
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Social Urls.
 
-#### Examples
-
-```twig
-    {{craft.socialurls.getsocial()}}
-```
-
-
